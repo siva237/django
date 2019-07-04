@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <h1> marks details</h1>
+
+    {% for details in data %}
+    <p>rollno:{{details.rollno}}</p>
+    <p>telugu:{{details.telugu}}</p>
+    <p> english:{{details.english}} </p>
+    <p>maths:{{details.maths}}</p>
+
+    {% endfor %}
+</body>
+</html>
