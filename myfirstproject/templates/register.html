@@ -4,15 +4,26 @@
     <meta charset="UTF-8">
     <title></title>
 </head>
-<body>
-    <h1> marks details</h1>
+<body bgcolor="green">
+  <center>  <h1> marks details</h1>
 
     {% for details in data %}
-    <p>rollno:{{details.rollno}}</p>
+    <p>roll no:{{details.rollno}}</p>
     <p>telugu:{{details.telugu}}</p>
     <p> english:{{details.english}} </p>
     <p>maths:{{details.maths}}</p>
 
     {% endfor %}
+      </center>
+
+<center>  <h1> registration details</h1>
+
+    {% for details1 in data1 %}
+    <p>name:{{details1.name}}</p>
+    <p>email:{{details1.email}}</p>
+
+    {% endfor %}
+      </center>
+
 </body>
 </html>
